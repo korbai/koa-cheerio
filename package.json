@@ -1,6 +1,6 @@
 {
   "name": "koa-cheerio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa view render based on Cheerio for simple templating",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/korbai/koa-cheerio.git"
+  },
+  "dependencies": {
+    "co-fs": "*",
+    "cheerio": "*"
   },
   "keywords": [
     "koa",
